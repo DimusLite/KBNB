@@ -1,1 +1,1 @@
-web: python req.py
+web: python itbot.py
