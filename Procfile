@@ -1,1 +1,1 @@
-web: python req_cl.py $PORT
+web: python req.py
