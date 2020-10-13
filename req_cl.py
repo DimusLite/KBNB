@@ -51,7 +51,7 @@ def main():
             last_chat_text = last_update['message']['text']
             last_chat_id = last_update['message']['chat']['id']
             last_chat_name = last_update['message']['from']['first_name']
-            send_text = 'Сам ты ' + last_chat_text
+            send_text = 'Сам ты ' + last_chat_text + ', asshole'
             greet_bot.send_message(last_chat_id, send_text)
             new_offset = last_update_id + 1
 """
