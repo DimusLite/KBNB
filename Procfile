@@ -1,1 +1,1 @@
-worker: python req_cl.py
+worker: python bot_telebot.py
