@@ -31,8 +31,9 @@ class BotHandler:
 
         return last_update
 
-#TOKEN = "705130797:AAGoiH-ru25oKOgAmTP1qiMNAh5wB0FBtaY"
-TOKEN = os.environ["TOKEN"]
+TOKEN = "705130797:AAGoiH-ru25oKOgAmTP1qiMNAh5wB0FBtaY"
+#heroku add TOKEN=705130797:AAGoiH-ru25oKOgAmTP1qiMNAh5wB0FBtaY
+#TOKEN = os.environ["TOKEN"]
 greet_bot = BotHandler(TOKEN)
 greetings = ('здравствуй', 'привет', 'ку', 'здорово', 'hi')
 now = datetime.datetime.now()
